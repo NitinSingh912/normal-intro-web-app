@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.firstPage {
+    background-image: url(./275-ake9822-chim-1600x1090.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 170px 300px;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+span {
+    font-size: 30px;
+}
+
+.firstPortion {
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.spanTag {
+    font-size: 70px;
+}
+
+.secondPortion {
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondPortionExtraDiv {
+
+    height: 70%;
+    width: 70%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+
+
+}
+
+.firstWork,
+.secondWork,
+.thirdWork {
+    height: 100%;
+    width: 25%;
+    
+    border-radius: 8px;
+}
+img{
+    width: 100%;
+    height: 189px;
+}
+.textPortion{
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.paragraphPortion{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+   
+}
+.firstWork:hover,.secondWork:hover,.thirdWork:hover{
+   cursor: pointer;
+   box-shadow: 5px 5px 5px rgba(135, 207, 235, 0.27);
+}
+.lastPage{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+
+}
+.insideSmh{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.contactMe,.aboutMe{
+    width: 50%;
+   background-color:black;
+    border: 3px solid white;
+}
+h4{
+    margin-top: 10px;
+    font-size: 30px;
+}
+p{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+@media (max-width:600px){
+    h1 {
+        font-size: 40px;
+    }
+}
